@@ -1,0 +1,29 @@
+.reach-me {
+  margin-top: 5rem;
+  text-align: center;
+  color: #8fbc8f;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+input,
+textarea {
+  width: 80%;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  background: transparent;
+  border: 2px solid;
+  border-color: #8fbc8f;
+  resize: none;
+  color: white;
+}
+
+button {
+  margin-bottom: 8rem;
+  margin-top: 3rem;
+}

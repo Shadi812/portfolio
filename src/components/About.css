@@ -1,0 +1,51 @@
+.card__about {
+  display: flex;
+  align-items: center;
+  width: 50rem;
+  max-width: 100rem;
+  padding: 5rem 15rem 5rem 1rem;
+  margin-top: 10rem;
+  margin-left: 7rem;
+
+  background: rgba(0, 0, 0, 0.3);
+  border: 1px solid #8fbc8f;
+
+  border-radius: 10rem;
+}
+
+.me {
+  max-width: 280px;
+  width: 28vw;
+  height: 300px;
+  object-fit: cover;
+  margin-left: -60px;
+  margin-right: 30px;
+  border: 5px solid #8fbc8f;
+  border-radius: 5rem;
+}
+
+.card__about h2,
+.card__about h3 {
+  text-align: center;
+  color: #6495ed;
+}
+
+.card__about p {
+  text-align: center;
+  color: antiquewhite;
+  font-size: larger;
+  margin-left: 0.5rem;
+  margin-right: -5rem;
+}
+
+.btn {
+  margin-left: 5rem;
+  margin-right: 1rem;
+  color: antiquewhite;
+  font-size: large;
+  background: #8fbc8f;
+  font-family: inherit;
+  padding: 1rem 1rem;
+
+  border-radius: 40px;
+}
