@@ -25,11 +25,11 @@ const About = () => {
               felt as if my individuality was dwindling away. My one take away
               from all this is that there is no creative boundries in code!
             </p>
-            <a href={resume} download className="btn ">
+            <a href={resume} download className="about__btn ">
               Download Resume
             </a>
 
-            <a href="#contact" className="btn ">
+            <a href="#contact" className="about__btn ">
               Contact Me
             </a>
           </div>

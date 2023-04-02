@@ -1,5 +1,5 @@
 .reach-me {
-  margin-top: 5rem;
+  margin-top: 6rem;
   text-align: center;
   color: #8fbc8f;
 }
@@ -15,7 +15,7 @@ input,
 textarea {
   width: 80%;
   padding: 1.5rem;
-  border-radius: 0.5rem;
+  border-radius: 3rem;
   background: transparent;
   border: 2px solid;
   border-color: #8fbc8f;
@@ -24,6 +24,13 @@ textarea {
 }
 
 button {
-  margin-bottom: 8rem;
-  margin-top: 3rem;
+  margin-left: 5rem;
+  margin-right: 1rem;
+  color: antiquewhite;
+  font-size: large;
+  background: #8fbc8f;
+  font-family: inherit;
+  padding: 1rem 1rem;
+
+  border-radius: 40px;
 }
