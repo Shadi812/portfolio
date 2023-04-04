@@ -1,7 +1,12 @@
-.reach-me {
-  margin-top: 6rem;
-  text-align: center;
+#contact {
+  padding: 50px 0;
+}
+
+#contact h1 {
   color: #8fbc8f;
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 50px;
 }
 
 form {
@@ -17,8 +22,7 @@ textarea {
   padding: 1.5rem;
   border-radius: 3rem;
   background: transparent;
-  border: 2px solid;
-  border-color: #8fbc8f;
+  border: 2px solid #8fbc8f;
   resize: none;
   color: white;
 }
@@ -28,9 +32,17 @@ button {
   margin-right: 1rem;
   color: antiquewhite;
   font-size: large;
-  background: #8fbc8f;
+  background-color: #8fbc8f;
   font-family: inherit;
-  padding: 1rem 1rem;
+  padding: 1rem 2rem;
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
 
-  border-radius: 40px;
+button:hover {
+  background-color: #4f7942;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.4);
+  transform: translateY(-0.2rem);
 }

@@ -38,14 +38,30 @@
   margin-right: -5rem;
 }
 
-.about__btn {
-  margin-left: 5rem;
-  margin-right: 1rem;
-  color: antiquewhite;
-  font-size: large;
-  background: #8fbc8f;
-  font-family: inherit;
-  padding: 1rem 1rem;
+.about__item-CTA {
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
 
-  border-radius: 40px;
+.about__btn {
+  justify-content: center;
+
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+
+  color: #fff;
+  background-color: #8fbc8f;
+  border-radius: 2rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+  transition: all 0.2s ease-in-out;
+}
+
+.about__btn:hover {
+  background-color: #4f7942;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.4);
+  transform: translateY(-0.2rem);
 }

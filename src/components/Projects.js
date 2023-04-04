@@ -29,6 +29,7 @@ function Projects() {
                   PostgresSQL, KnexJS, Bootstrap
                 </small>
               </p>
+
               <div className="portfolio__item-CTA">
                 <a
                   href="https://github.com/Shadi812/Restaurant-Reservation-App"
@@ -37,12 +38,11 @@ function Projects() {
                 >
                   Code
                 </a>
-              </div>
-              <div className="portfolio__item-CTA">
+
                 <a
                   href="https://front-end-three-tau.vercel.app/dashboard"
                   target="__blank"
-                  className="btn"
+                  className="btn btn-primary"
                 >
                   Deployed Site
                 </a>
@@ -107,7 +107,7 @@ function Projects() {
                 <a
                   href="https://github.com/Shadi812/WeLoveMovies"
                   target="__blank"
-                  className="btn"
+                  className="btn "
                 >
                   Code
                 </a>

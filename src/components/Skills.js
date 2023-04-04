@@ -13,7 +13,7 @@ function Skills() {
   return (
     <>
       <section id="skills">
-        <h2 className="skills"> My Skills </h2>
+        <h1 className="skills"> My Skills </h1>
         <br />
         <div className="card-deck">
           <div className="card-skills  ">

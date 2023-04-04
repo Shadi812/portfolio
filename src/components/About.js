@@ -13,25 +13,34 @@ const About = () => {
 
             <h3> Software Developer</h3>
             <p>
-              In the past year I started my journey as a software developer,
-              thanks to the guidance and training of Thinkful's Software
-              Engineering Bootcamp. I have an insane curosity of how things
-              work, spending hours watching videos and reading about the inner
-              working of the mechanics that run the world, so naturally I found
-              a passion in coding. Learning to code has had its ups & downs but
-              the outcome was worth it, and there is still so much to learn and
-              grow from. As a creative individual, coming from a background
-              education in Finance and a career in the Insurance industry, I
-              felt as if my individuality was dwindling away. My one take away
-              from all this is that there is no creative boundries in code!
+              Over the past year, I embarked on a journey as a software
+              developer, thanks to the training and guidance provided by
+              Thinkful's Software Engineering Bootcamp. Driven by an insatiable
+              curiosity about how the world works, I spent countless hours
+              watching videos and reading up on the mechanics that power it all,
+              which naturally led me to discover a passion for coding. Although
+              learning to code had its ups and downs, the end result was
+              definitely worth it. I recognize that there is still much more to
+              learn and grow from in this field.
             </p>
-            <a href={resume} download className="about__btn ">
-              Download Resume
-            </a>
+            <p>
+              As a creative person who came from a background in Finance and
+              previously worked in the Insurance industry, I felt like my
+              individuality was being stifled. However, I realized that there
+              are no limits to creativity in coding, which has been liberating.
+              Overall, my takeaway from this experience is that there are
+              endless opportunities for innovation and expression in the world
+              of code.
+            </p>
+            <div className="about__item-CTA">
+              <a href={resume} download className="about__btn ">
+                Download Resume
+              </a>
 
-            <a href="#contact" className="about__btn ">
-              Contact Me
-            </a>
+              <a href="#contact" className="about__btn ">
+                Contact Me
+              </a>
+            </div>
           </div>
         </div>
       </section>
