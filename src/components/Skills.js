@@ -22,7 +22,7 @@ function Skills() {
                 <SiJavascript className="js" /> <p>JavaScript</p>
                 <GrReactjs className="react" /> <p>React</p>
                 <ImHtmlFive className="html" /> <p>HTML5</p>
-                <IoLogoCss3 className="cascade" /> <p>Css</p>
+                <IoLogoCss3 className="cascade" /> <p>CSS</p>
                 <BsFillBootstrapFill className="bootstrap" /> <p>Bootstrap</p>
                 <FaNode className="node" /> <p>Node.js</p>
                 <SiExpress className="exprs" /> <p>Express</p>

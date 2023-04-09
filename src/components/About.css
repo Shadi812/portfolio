@@ -27,7 +27,7 @@
 .card__about h2,
 .card__about h3 {
   text-align: center;
-  color: #6495ed;
+  color: #8fbc8f;
 }
 
 .card__about p {
@@ -64,4 +64,37 @@
   background-color: #4f7942;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.4);
   transform: translateY(-0.2rem);
+}
+
+/* Media queries for large screens */
+@media screen and (min-width: 2000px) {
+  .card__about {
+    width: 70rem;
+    margin-left: 15rem;
+  }
+}
+
+/* Media queries for small screens */
+@media screen and (max-width: 768px) {
+  .card__about {
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem 1rem 3rem 1rem;
+    margin-top: 5rem;
+    margin-left: 2rem;
+    width: 80%;
+  }
+
+  .me {
+    max-width: 200px;
+    width: 80vw;
+    height: auto;
+    margin: 0;
+    margin-bottom: 2rem;
+  }
+
+  .card__about p {
+    margin-left: 0;
+    margin-right: 0;
+  }
 }

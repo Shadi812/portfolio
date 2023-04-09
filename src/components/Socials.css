@@ -1,0 +1,43 @@
+.social-container {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  z-index: 9999;
+}
+
+.social-container a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: transparent;
+  color: white;
+  font-size: 20px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.social-container a:hover {
+  background-color: #0e639c;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .social-container {
+    top: 40px;
+    right: 40px;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 2000px) {
+  .social-container {
+    top: 80px;
+    right: 80px;
+  }
+}

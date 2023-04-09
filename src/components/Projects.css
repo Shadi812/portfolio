@@ -45,6 +45,7 @@
 }
 
 .card-text {
+  color: #8fbc8f;
   text-align: center;
   word-wrap: break-word;
   margin-bottom: auto;
@@ -93,4 +94,38 @@
   display: flex;
   gap: 1rem;
   margin-top: 1rem;
+}
+
+/* Media queries for small screens */
+@media screen and (max-width: 767px) {
+  #projects h1 {
+    font-size: 1.8rem;
+    margin-bottom: 30px;
+  }
+
+  .card {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .portfolio__item-image {
+    height: 150px;
+  }
+}
+
+/* Media queries for large screens */
+@media screen and (min-width: 992px) {
+  #projects h1 {
+    font-size: 2.5rem;
+    margin-bottom: 50px;
+  }
+
+  .card {
+    width: calc(33.33% - 20px);
+    margin-bottom: 30px;
+  }
+
+  .portfolio__item-image {
+    height: 250px;
+  }
 }

@@ -12,7 +12,6 @@
 .card-deck {
   display: flex;
   justify-content: center;
-  flex-direction: row;
 }
 
 .card-skills {
@@ -20,9 +19,23 @@
   border-radius: 50px;
   height: 20rem;
   width: 60rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column; /* default */
 }
 
-/* ********************* Icons ************************ */
+.skills-display {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+}
+
+.skills-display p {
+  color: white;
+}
+
+/* Icons */
 .js {
   color: yellow;
   font-size: xx-large;
@@ -63,14 +76,46 @@
   color: rgb(15, 104, 192);
 }
 
-.skills-display {
-  padding-left: 8rem;
-  padding-top: 2rem;
-  display: grid;
-  grid-template-columns: 0.2fr 1fr 0.2fr 1fr;
-  gap: 1rem;
+/* Media queries */
+@media (max-width: 768px) {
+  #skills {
+    padding: 30px 0;
+  }
+
+  #skills h1 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+  }
+
+  .card-skills {
+    flex-direction: row;
+    height: 35rem;
+    width: 90%;
+  }
+
+  .skills-display {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0 2rem;
+  }
 }
 
-p {
-  color: white;
+@media (min-width: 2000px) {
+  #skills {
+    padding: 100px 0;
+  }
+
+  #skills h1 {
+    font-size: 3rem;
+    margin-bottom: 100px;
+  }
+
+  .card-skills {
+    height: 25rem;
+    width: 80rem;
+    display: flex;
+  }
+
+  .skills-display {
+    grid-template-columns: repeat(4, 1fr);
+  }
 }
