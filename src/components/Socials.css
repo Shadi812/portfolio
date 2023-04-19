@@ -26,11 +26,11 @@
   background-color: #0e639c;
 }
 
-/* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) {
+/* Small devices */
+@media (min-width: 375px) {
   .social-container {
-    top: 40px;
-    right: 40px;
+    top: 50px;
+    right: 150px;
   }
 }
 
