@@ -27,7 +27,7 @@ function Projects() {
               <p class="card-text">
                 <small class="text-muted">
                   Buit with: HTML, CSS, JavaScript, ReactJS, NodeJS, ExpressJS,
-                  PostgresSQL, KnexJS, Bootstrap
+                  PostgreSQL, KnexJS, Bootstrap
                 </small>
               </p>
 
@@ -101,7 +101,7 @@ function Projects() {
               </p>
               <p class="card-text">
                 <small class="text-muted">
-                  Built with: NodeJS, ExpressJS, PostgresSQL, KnexJS
+                  Built with: NodeJS, ExpressJS, PostgreSQL, KnexJS
                 </small>
               </p>
               <div className="portfolio__item-CTA">

@@ -26,7 +26,7 @@ function Skills() {
                 <BsFillBootstrapFill className="bootstrap" /> <p>Bootstrap</p>
                 <FaNode className="node" /> <p>Node.js</p>
                 <SiExpress className="exprs" /> <p>Express</p>
-                <SiPostgresql className="pstgrs" /> <p>PostgresSQL</p>
+                <SiPostgresql className="pstgrs" /> <p>PostgreSQL</p>
               </div>
             </div>
           </div>
