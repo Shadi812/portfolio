@@ -61,11 +61,11 @@ function Projects() {
                 ></img>
               </div>
               <p class="card-text">
-                Allowing userers to study, this application revolvs around
-                online flashcards. Students have the oppurtunity to create
-                multiple decks and cards,so when it comes time to study, the
-                students can click on the flashcard to flip it back and forth,
-                revealing the definitions on the otherside.
+                Allowing users to study, this application revolves around online
+                flashcards. Students have the opportunity to create multiple
+                decks and cards, so when it comes time to study, the students
+                can click on the flashcard to flip it back and forth, revealing
+                the definitions on the other side.
               </p>
               <p class="card-text">
                 <small class="text-muted">
@@ -95,8 +95,8 @@ function Projects() {
               </div>
               <p class="card-text">
                 An API for an application that displays movies. This API
-                provides acess to relevant information through route and query
-                parameters. Users can also acess the theaters each movie is
+                provides access to relevant information through route and query
+                parameters. Users can also access the theaters each movie is
                 playing at, as well as critics' reviews of those movies.
               </p>
               <p class="card-text">
